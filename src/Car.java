@@ -20,7 +20,7 @@ public class Car {
     // конструктор для задачи №2 и 3
 
     public Car(String brand, String model, double engineVolume, String color, int year, String country) {
-        if (brand == null) {
+        if (brand == null || brand.isEmpty()) {
             this.brand = "default";
         } else this.brand = brand;
 

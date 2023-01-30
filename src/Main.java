@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-//        task1();
-//        task2();
+        task1();
+        task2();
         task3();
 
     }
@@ -15,7 +15,7 @@ public class Main {
         lada.color = "Желтый";
         lada.year = 2015;
         lada.country = "Россия";
-        System.out.println(lada.toString());
+        System.out.println(lada);
 
         Car audi = new Car();
         audi.brand = "Audi";
@@ -24,7 +24,7 @@ public class Main {
         audi.color = "Черный";
         audi.year = 2020;
         audi.country = "Германия";
-        System.out.println(audi.toString());
+        System.out.println(audi);
 
         Car bmw = new Car();
         bmw.brand = "BMW";
@@ -33,7 +33,7 @@ public class Main {
         bmw.color = "Черный";
         bmw.year = 2021;
         bmw.country = "Германия";
-        System.out.println(bmw.toString());
+        System.out.println(bmw);
 
         Car kia = new Car();
         kia.brand = "Kia";
@@ -42,7 +42,7 @@ public class Main {
         kia.color = "Красный";
         kia.year = 2018;
         kia.country = "Южная Корея";
-        System.out.println(kia.toString());
+        System.out.println(kia);
 
         Car hyundai = new Car();
         hyundai.brand = "Hyundai";
@@ -51,7 +51,7 @@ public class Main {
         hyundai.color = "Оранжевый";
         hyundai.year = 2016;
         hyundai.country = "Южная Корея";
-        System.out.println(hyundai.toString());
+        System.out.println(hyundai);
 
     }
 
@@ -63,11 +63,11 @@ public class Main {
         Car bmw = new Car("BMW", "Z8", 3.0, "Черный", 2021, "Германия");
         Car kia = new Car("Kia", "Sportage", 2.4, "Красный", 2018, "Южная корея");
         Car hyundai = new Car("Hyundai", "Avante", 1.6, "Оранжевый", 2016, "Южная корея");
-        System.out.println(lada.toString());
-        System.out.println(audi.toString());
-        System.out.println(bmw.toString());
-        System.out.println(kia.toString());
-        System.out.println(hyundai.toString());
+        System.out.println(lada);
+        System.out.println(audi);
+        System.out.println(bmw);
+        System.out.println(kia);
+        System.out.println(hyundai);
     }
 
     public static void task3() {
@@ -79,11 +79,11 @@ public class Main {
         Car bmw = new Car("BMW", "Z8", 3.0, null, 2021, "Германия");
         Car kia = new Car("Kia", null, 2.4, "Красный", 2018, "Южная корея");
         Car hyundai = new Car("Hyundai", "Avante", 1.6, "Оранжевый", 0, "Южная корея");
-        System.out.println(lada.toString());
-        System.out.println(audi.toString());
-        System.out.println(bmw.toString());
-        System.out.println(kia.toString());
-        System.out.println(hyundai.toString());
+        System.out.println(lada);
+        System.out.println(audi);
+        System.out.println(bmw);
+        System.out.println(kia);
+        System.out.println(hyundai);
 
     }
 
