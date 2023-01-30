@@ -24,7 +24,7 @@ public class Car {
             this.brand = "default";
         } else this.brand = brand;
 
-        if (model == null) {
+        if (model == null || model.isEmpty()) {
             this.model = "default";
         } else this.model = model;
 
@@ -32,7 +32,7 @@ public class Car {
             this.engineVolume = 1.5;
         } else this.engineVolume = engineVolume;
 
-        if (color == null) {
+        if (color == null || color.isEmpty()) {
             this.color = "Белый";
         } else this.color = color;
 
@@ -40,7 +40,7 @@ public class Car {
             this.year = 2000;
         } else this.year = year;
 
-        if (country == null) {
+        if (country == null || country.isEmpty()) {
             this.country = "default";
         } else this.country = country;
 
