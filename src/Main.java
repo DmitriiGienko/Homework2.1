@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        task1();
-        task2();
+//        task1();
+//        task2();
         task3();
 
     }
@@ -72,39 +72,17 @@ public class Main {
 
     public static void task3() {
         System.out.println("_____Задача 3_____");
-        // удалены некоторые свойства
-        Car lada = new Car();
-        lada.brand = "Lada";
-        lada.engineVolume = 1.7;
-        lada.color = "Желтый";
-        lada.year = 2015;
+
+// через 2 конструктор
+        Car lada = new Car(null, "Granta", 1.7, "Желтый", 2015, "Россия");
+        Car audi = new Car("Audi", "A8", 0, "Черный", 2020, null);
+        Car bmw = new Car("BMW", "Z8", 3.0, null, 2021, "Германия");
+        Car kia = new Car("Kia", null, 2.4, "Красный", 2018, "Южная корея");
+        Car hyundai = new Car("Hyundai", "Avante", 1.6, "Оранжевый", 0, "Южная корея");
         System.out.println(lada.toString());
-
-        Car audi = new Car();
-        audi.brand = "Audi";
-        audi.model = "A8";
-        audi.country = "Германия";
         System.out.println(audi.toString());
-
-        Car bmw = new Car();
-        bmw.model = "Z8";
-        bmw.engineVolume = 3.0;
-        bmw.color = "Черный";
-        bmw.country = "Германия";
         System.out.println(bmw.toString());
-
-        Car kia = new Car();
-        kia.brand = "Kia";
-        kia.engineVolume = 2.4;
-        kia.color = "Красный";
-        kia.year = 2018;
         System.out.println(kia.toString());
-
-        Car hyundai = new Car();
-        hyundai.model = "Avante";
-        hyundai.engineVolume = 1.6;
-        hyundai.year = 2016;
-        hyundai.country = "Южная Корея";
         System.out.println(hyundai.toString());
 
     }
